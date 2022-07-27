@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adrenalin</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family='Lato':ital,wght@0,400;1,300&family=Oswald:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top">
+          <div class="header-logo">
+            <a href="#"><img src="img/header-logo.png" alt="logo" /></a>
+          </div>
+          <nav class="header__menu">
+            <div class="header__menu-btn">
+              <div class="header__menu-row first-line"></div>
+              <div class="header__menu-row second-line"></div>
+              <div class="header__menu-row third-line"></div>
+              <div class="header__menu-row fourth-line"></div>
+            </div>
+            <ul>
+              <li><a href="index.html">Головна</a></li>
+              <li><a href="about.html">Про нас</a></li>
+              <li><a class="header__menu-link--active" href="#">Послуги</a></li>
+              <li><a href="contacts.html">Локація</a></li>
+              <li><a href="results.html">Наші результати</a></li>
+              <li><a href="instructors.html">Тренери</a></li>
+              <li class="header__menu-phone">
+                <a href="tel:0684020800">068 402 0800</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-content">
+          <div class="container">
+            <div class="header-content__title">
+              <h2>Тренування</h2>
+            </div>
+            <div class="header-content__text">
+              <p
+                data-aos="fade-left"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+              >
+                Пропонуємо нашим клієнтам персональні, групові та онлайн
+                тренування. Повний супровід у досягненні Ваших спортивних цілей!
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#services">
+          <svg
+            class="arrow-one"
+            data-aos="fade-down"
+            data-aos-delay="2500"
+            data-aos-duration="2500"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            width="256"
+            height="256"
+            viewBox="0 0 256 256"
+            xml:space="preserve"
+          >
+            <desc>Created with Fabric.js 1.7.22</desc>
+            <defs></defs>
+            <g transform="translate(128 128) scale(0.72 0.72)" style="">
+              <g
+                style="
+                  stroke: none;
+                  stroke-width: 0;
+                  stroke-dasharray: none;
+                  stroke-linecap: butt;
+                  stroke-linejoin: miter;
+                  stroke-miterlimit: 10;
+                  fill: none;
+                  fill-rule: nonzero;
+                  opacity: 1;
+                "
+                transform="translate(-175.05 -175.05000000000004) scale(3.89 3.89)"
+              >
+                <path
+                  d="M 58.799 58.33 L 16.466 15.998 c -1.059 -1.059 -2.776 -1.059 -3.835 0 L 0.794 27.834 c -1.059 1.059 -1.059 2.776 0 3.835 l 42.333 42.333 c 1.059 1.059 2.776 1.059 3.835 0 l 11.837 -11.837 C 59.858 61.107 59.858 59.39 58.799 58.33 z"
+                  style="
+                    stroke: none;
+                    stroke-width: 1;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: rgb(255, 255, 255);
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform=" matrix(1 0 0 1 0 0) "
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M 31.201 58.33 l 42.333 -42.333 c 1.059 -1.059 2.776 -1.059 3.835 0 l 11.837 11.837 c 1.059 1.059 1.059 2.776 0 3.835 L 46.873 74.002 c -1.059 1.059 -2.776 1.059 -3.835 0 L 31.201 62.166 C 30.142 61.107 30.142 59.39 31.201 58.33 z"
+                  style="
+                    stroke: none;
+                    stroke-width: 1;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: rgb(255, 255, 255);
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform=" matrix(1 0 0 1 0 0) "
+                  stroke-linecap="round"
+                />
+              </g>
+            </g>
+          </svg>
+        </a>
+      </header>
+
+      <section class="header-slider">
+        <div class="slider">
+          <div
+            class="slider__item fix"
+            style="
+              background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0),
+                  #000
+                ),
+                url(img/services_bg.webp);
+            "
+          ></div>
+        </div>
+      </section>
+      <main>
+        <section class="services" id="services">
+          <div class="container">
+            <div class="services__inner">
+              <div
+                class="services__item"
+                data-aos="flip-left"
+                data-aos-delay="300"
+                data-aos-duration="1000"
+              >
+                <div class="services__img">
+                  <img
+                    src="img/personal-training_item1.webp"
+                    alt="personal training image"
+                  />
+                </div>
+              </div>
+              <div
+                class="services__item"
+                data-aos="flip-right"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+              >
+                <div class="services__img">
+                  <img
+                    src="img/personal-training_item2.webp"
+                    alt="personal training image"
+                  />
+                </div>
+              </div>
+              <div
+                class="services__item"
+                data-aos="flip-left"
+                data-aos-delay="600"
+                data-aos-duration="1000"
+              >
+                <div class="services__img">
+                  <img
+                    src="img/personal-training_item3.webp"
+                    alt="personal training image"
+                  />
+                </div>
+              </div>
+              <div
+                class="services__item"
+                data-aos="flip-right"
+                data-aos-delay="700"
+                data-aos-duration="1000"
+              >
+                <div class="services__info">
+                  <div class="services__title">
+                    Персональні тренування – це Адреналін!
+                  </div>
+                  <div class="services__text">
+                    <p>
+                      Ми надаємо всім нашим новим клієнтам безкоштовну
+                      45-хвилинну консультацію, під час якої ми детально
+                      розглянемо ваші цілі та як ми можемо допомогти вам їх
+                      досягти.
+                    </p>
+                    <p>
+                      Ми також пропонуємо безкоштовні посібники з дієти з
+                      порадами щодо харчування та аналізом способу життя.
+                      Наступним кроком є проведення деяких тестів на фітнес для
+                      визначення поточних рівнів фізичної підготовки, результати
+                      яких можна використовувати пізніше, щоб озирнутися назад і
+                      побачити прогрес, досягнутий за час, коли Ви тренуєтеся з
+                      Адреналін.
+                    </p>
+                    <p>
+                      Кожне індивідуальне навчання буде розроблено для кожного
+                      клієнта, і ми пропонуємо індивідуальне обслуговування з
+                      гарантією повернення грошей. Кожен клієнт, який записався
+                      на персональне тренування, проходить різні процедури під
+                      час кожного тренування. Головне, щоб тіло здогадувалося,
+                      що буде далі, і з 10-річним досвідом Адреналін Ви
+                      отримаєте результати, на які Ви заслуговуєте.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="benefits benefits-services">
+          <div class="container">
+            <div
+              class="benefits__title benefits-services"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Наші переваги
+            </div>
+            <div class="benefits__items">
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>01</span>
+                </div>
+                <div class="benefits__text">Програма тренувань</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>02</span>
+                </div>
+                <div class="benefits__text">Комплекс харчування</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>03</span>
+                </div>
+                <div class="benefits__text">Покращити форму тіла</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="700"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>04</span>
+                </div>
+                <div class="benefits__text">Схуднути</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="800"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>05</span>
+                </div>
+                <div class="benefits__text">Набрами мязеву масу</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="900"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>06</span>
+                </div>
+                <div class="benefits__text">Контроль інструктора</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="1000"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>07</span>
+                </div>
+                <div class="benefits__text">Відновитись після вагітності</div>
+              </div>
+              <div
+                class="benefits__item"
+                data-aos="fade-up"
+                data-aos-delay="1100"
+                data-aos-duration="800"
+              >
+                <div class="benefits__images benefits-numbers">
+                  <span>08</span>
+                </div>
+                <div class="benefits__text">Зменшити стрес і тривожність</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gallery">
+          <div class="container">
+            <div class="gallery__inner">
+              <div class="gallery__title">
+                <h2>Подбай про своє здоров'я!</h2>
+              </div>
+              <div class="gallery__link">
+                <a href="./instructors.html"> Знайди свого тренера</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__item footer-contacts">
+              <div class="footer__title">Зв'яжіться з нами</div>
+              <div class="footer__adress">
+                Адреса: вул. Гетьмана Мазепи 11, Львів
+              </div>
+              <div class="footer__mail">
+                <a href="mailto:adrenalin_lviv@gmail.com"
+                  >adrenalin_lviv@gmail.com</a
+                >
+              </div>
+              <div class="footer__phone">
+                <a href="tel:0684020800">068 402 0800</a>
+              </div>
+              <ul class="footer__social">
+                <li>
+                  <a href="#"
+                    ><img src="img/icons/facebook.svg" alt="facebook icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/icons/twitter.svg" alt="twitter icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/icons/google.svg" alt="google icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item footer-links">
+              <div class="footer__title">Корисні посилання</div>
+              <ul class="footer__item list">
+                <li><a href="#">Реклама</a></li>
+                <li><a href="#">Положення та умови</a></li>
+                <li><a href="#">Політика конфіденційності</a></li>
+                <li><a href="#">Кар'єра</a></li>
+                <li><a href="#">Магазин</a></li>
+              </ul>
+            </div>
+            <div class="footer__item footer-tweets">
+              <div class="footer__title">Останні Твіти</div>
+              <div class="footer__tweets">
+                <p>
+                  Класно прокачав прес. Адреналін топчик
+                  <a href="#">http://t.co/hVtABj5tZof</a>
+                </p>
+                <p>
+                  Ти обов'язково повинен спробувати персональні тренування
+                  <a href="#">http://t.co/hVtABj5tZof</a>
+                </p>
+              </div>
+            </div>
+            <div class="footer__item footer-about">
+              <div class="footer__title">про нас</div>
+              <div class="footer__text">
+                <p>
+                  Адреналін вже більше 15 років є провідною компанією з
+                  персональних тренувань у фітнес-індустрії. Компанія пропонує
+                  всі аспекти фітнесу, ексклюзивний досвід персональних
+                  тренувань для людей, які серйозно ставляться до покращення
+                  свого здоров’я та тіла.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

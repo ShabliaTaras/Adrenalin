@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.main {
+  flex: 1 1 auto;
+}
+@keyframes arrowDown {
+  0% {
+    top: 80vh;
+    opacity: 1;
+  }
+  100% {
+    top: 85vh;
+    opacity: 0;
+  }
+}
+.arrow-one {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 80vh;
+  left: calc(50% - 15px);
+  animation: arrowDown 2.5s infinite;
+  animation-delay: 3s;
+}
